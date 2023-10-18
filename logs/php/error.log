@@ -1,0 +1,130 @@
+[17-Oct-2023 10:52:49 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 13:31:32 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 48
+[17-Oct-2023 13:35:34 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "items_wrap", expecting ")" in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 48
+[17-Oct-2023 14:00:15 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:15:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:16:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:16:53 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:17:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 42
+[17-Oct-2023 14:17:24 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:17:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 42
+[17-Oct-2023 14:47:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:47:43 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:47:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:48:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:48:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:49:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:53:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:53:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:54:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:54:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:54:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:55:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:58:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 14:58:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 14:58:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\header.php on line 43
+[17-Oct-2023 15:02:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_custom_logo_size() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php:7
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(310): watsons_theme_support('')
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-config.php(103): require_once('C:\\Users\\skelo\\...')
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-load.php(50): require_once('C:\\Users\\skelo\\...')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\skelo\\...')
+#7 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php on line 7
+[17-Oct-2023 15:02:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[17-Oct-2023 15:02:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[17-Oct-2023 15:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_custom_logo_size() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php:7
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(310): watsons_theme_support('')
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-config.php(103): require_once('C:\\Users\\skelo\\...')
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-load.php(50): require_once('C:\\Users\\skelo\\...')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\options-general.php(10): require_once('C:\\Users\\skelo\\...')
+#8 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php on line 7
+[17-Oct-2023 15:02:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_custom_logo_size() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php:7
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(310): watsons_theme_support('')
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-config.php(103): require_once('C:\\Users\\skelo\\...')
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-load.php(50): require_once('C:\\Users\\skelo\\...')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\index.php(10): require_once('C:\\Users\\skelo\\...')
+#8 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php on line 7
+[17-Oct-2023 15:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_custom_logo_size() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php:7
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(310): watsons_theme_support('')
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-config.php(103): require_once('C:\\Users\\skelo\\...')
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-load.php(50): require_once('C:\\Users\\skelo\\...')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\skelo\\...')
+#8 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\functions.php on line 7
+[17-Oct-2023 15:03:59 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[17-Oct-2023 15:08:26 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Oct-2023 12:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_llis_comments() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php:16
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\comment-template.php(1615): require()
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\template-parts\content-article.php(14): comments_template()
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(787): require('C:\\Users\\skelo\\...')
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(720): load_template('C:\\Users\\skelo\\...', false, Array)
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\single.php(13): get_template_part('template-parts/...', 'article')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\skelo\\...')
+#8 C:\Users\skelo\Local Sites\watsonswp\app\public\index.php(17): require('C:\\Users\\skelo\\...')
+#9 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php on line 16
+[18-Oct-2023 12:59:19 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php on line 31
+[18-Oct-2023 12:59:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function comments_form() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php:26
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\comment-template.php(1615): require()
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\template-parts\content-article.php(14): comments_template()
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(787): require('C:\\Users\\skelo\\...')
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(720): load_template('C:\\Users\\skelo\\...', false, Array)
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\single.php(13): get_template_part('template-parts/...', 'article')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\skelo\\...')
+#8 C:\Users\skelo\Local Sites\watsonswp\app\public\index.php(17): require('C:\\Users\\skelo\\...')
+#9 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php on line 26
+[18-Oct-2023 13:00:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_comments_count() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php:9
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\comment-template.php(1615): require()
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\template-parts\content-article.php(14): comments_template()
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(787): require('C:\\Users\\skelo\\...')
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(720): load_template('C:\\Users\\skelo\\...', false, Array)
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\single.php(13): get_template_part('template-parts/...', 'article')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\skelo\\...')
+#8 C:\Users\skelo\Local Sites\watsonswp\app\public\index.php(17): require('C:\\Users\\skelo\\...')
+#9 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php on line 9
+[18-Oct-2023 13:02:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_comments_count() in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php:9
+Stack trace:
+#0 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\comment-template.php(1615): require()
+#1 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\template-parts\content-article.php(14): comments_template()
+#2 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(787): require('C:\\Users\\skelo\\...')
+#3 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template.php(720): load_template('C:\\Users\\skelo\\...', false, Array)
+#4 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\single.php(13): get_template_part('template-parts/...', 'article')
+#6 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\skelo\\...')
+#7 C:\Users\skelo\Local Sites\watsonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\skelo\\...')
+#8 C:\Users\skelo\Local Sites\watsonswp\app\public\index.php(17): require('C:\\Users\\skelo\\...')
+#9 {main}
+  thrown in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-content\themes\watsonstheme\comments.php on line 9
+[18-Oct-2023 13:55:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\skelo\Local Sites\watsonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
